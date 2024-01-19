@@ -1,0 +1,751 @@
+body{
+  font-family:  'Poppins', sans-serif !important;  
+}
+p{
+  font-size: 14px;
+}
+
+.orange-color{
+  color: #f37021;
+}
+
+.input-height{
+  height: 50px;
+}
+
+.first-page{
+    background-image: url(images/tube-898660_640.jpg);
+    background-color: rgb(0 0 0 / 70%);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 654px;
+}
+
+/* header portion */
+
+.brand-logo{
+    width: 250px;
+    height: 40px;
+}
+.sub-logo{
+    font-size: 9px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.menu {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+}
+
+/* active class */
+
+.active, .menu:hover {
+  color: #f37021 !important;
+}
+
+.active-menu:hover {
+  background-color: #f37021;
+  
+}
+.nav-item:hover{
+  background-color: rgb(52 52 52);
+  border-radius: 20px;
+}
+
+
+/* toggler button */
+
+.navbar-toggler{
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.navbar-toggler{
+  border: 0;
+  box-shadow: none;
+  outline: none;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon{
+  box-shadow: 0px 0px 2px 1px  #f37021 !important;
+  border: var(--bs-border-width) solid #f37021 !important;
+}
+.toggler-icon{
+  display: block;
+  position: absolute;
+  height: 3px;
+  right: 3px;
+  background: #ffffff;
+  opacity: 1;
+}
+
+
+.navbar-toggler .top-bar{
+  width: 55%;
+  bottom: calc(50% + 2px + 3px/ 2);
+}
+
+.navbar-toggler .middle-bar{
+  width: 75%;
+  top: calc(50% - 3px/ 2);
+}
+
+.navbar-toggler .bottom-bar{
+  width: 55%;
+  top: calc(50% + 2px + 3px/ 2);
+}
+
+
+
+
+/*three squre lines */
+
+
+.square{
+    width: 10px;
+    height: 10px;
+}
+.getin{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+/* Reinforsing the future */
+
+
+.the-future{
+    font-size: 55px;
+    font-weight: 600;
+}
+.quality{
+    font-size: 35px;
+    font-family: system-ui;
+    font-weight: 300;
+}
+
+
+/* sticky purchase */
+
+.purchase{
+    background-color: #f37021;
+    position: fixed;
+    top: 200px;
+    right: 0;
+  }
+  .purchase p{
+    font-size: 13px;
+    
+  }
+
+  /* sticky contact */
+
+  .contact-icon{
+    width: 50px;
+    height: 50px;
+  }
+
+  .con-icon-group{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+
+
+  /* second page */
+
+
+  .p-head{
+    padding: 100px 0px 0px 100px;
+  }
+
+  .Div-line{
+    width: 50px;
+    height: 2px;
+    background-color: #f37021;
+  }
+
+
+  /* cards */
+
+  .card-photo{
+    width: 400px ;
+    height: 430px;
+  }
+
+  /* third page */
+
+  .who-img{
+    height: 620px;
+  } 
+
+  .quality-logo{
+    width: 90px;
+    height: 90px;
+  }
+
+
+  .people-font{
+    font-size: 1rem;
+  }
+
+  /* fourth page */
+
+
+  .fourth-page{
+    background: url("images/brochure.jpg");
+    background-color: rgb(0 0 0 / 80%);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+  }
+
+
+
+  /* fifth page */
+
+
+  .about-btn{
+    background-color: #f37021 !important;
+    width: 160px;
+    font-size: 15px !important;
+    height: 50px;
+    padding: 12px !important;
+  }
+
+
+
+/* seventh page */
+
+.seventh-page{
+  width: 100%;
+  height: 100%;
+  background-image:  url("images/Masco-BackgroundMasco.jpg");
+  background-color: #0b131ed4;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.owl-stage{
+  display: flex;
+}
+
+.back-7color{
+  background-color: #0b131ed4;
+}
+
+.card-bgimage{
+  width: 315px;
+  height: 380px !important;
+}
+
+.fade-color{
+  background-image: linear-gradient(to bottom, rgb(18 27 37 / 0%), rgb(10 19 28));
+}
+
+.owl-dots{
+  display: none ;
+}
+
+
+
+/* vertical slider image */
+
+.swiper-images{
+  height: 252px;
+  width: 100%;
+}
+
+.transform-slider{
+  transform: scale(1.2,1.2);
+  left: 16.65%;
+  top: 50%;
+  height: 285px;
+}
+
+
+.swiper-button{
+  width: 60px;
+  height: 60px;
+  bottom: 0%;
+  right: 10%;
+  background-color: #f37021;
+}
+
+/* nineth page */
+
+.enquire-btn{
+  border: 1px solid !important ;
+  border-color:  #f37021 !important;
+  border-radius: 0 !important;
+  color: #f37021 !important; 
+  height: 50px;
+}
+
+
+
+.address-column{
+  background-image: url("images/Masco-BackgroundMasco.jpg");
+  color: #ffffff;
+  box-shadow: #3b3b3b -1px 1px 5px 0px;
+}
+
+.get-touch{
+  background-color: #f37021;
+  height: 50px;
+}
+
+
+/* last part */
+
+.quick-link{
+  height: 430px;
+  background-image: url("images/welcome-bg.jpg");
+  background-color: #081926e3;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.q-logo{
+  width: 15px;
+  height: 15px;
+}
+
+.media-logo{
+  width: 20px;
+  height: 20px;
+}
+
+.round-div{
+  width: 25px;
+  height: 25px;
+}
+
+
+/* media queries */
+
+
+
+@media (max-width:1400px) {
+  .aliquam{
+    font-size: 40px !important;
+  }
+  .address-column{
+    padding: 30px !important;
+  } 
+
+ 
+}
+
+@media (max-width:1200px) {
+  
+  .navbar-expand-lg {
+    flex-wrap: wrap !important;
+    justify-content:center !important;
+  }
+  .navbar-center{
+    justify-content: center !important;
+  }
+
+  .aliquam{
+    font-size: 33px !important;
+  }
+  .select-number{
+    background-position-x: 35px !important;
+  }
+  .brand-logo{
+    width: 210px;
+  }
+
+  .sub-logo{
+    font-size: 8px;
+    word-spacing: 4px;
+    letter-spacing: 3px; 
+}
+
+
+  
+}
+
+
+
+
+
+
+
+@media (max-width:992px) {
+
+  .first-page{
+    height: 580px;
+  }
+
+  .menu {
+    font-size: 9px !important;
+  }
+
+  .square {
+    width: 7px;
+    height: 7px;
+}
+
+.drop-menu{
+  font-size: 10px;
+  --bs-dropdown-min-width: 8rem !important;
+}
+
+  .aliquam{
+    font-size: 31px !important;
+  }
+  .all-product{
+    font-size: 12px !important;
+  }
+
+  .p-head{
+    padding: 50px 0px 0px 50px !important;
+  }
+
+
+  .aliquam{
+    font-size: 33px !important;
+  }
+
+
+  .card-photo {
+    height: 260px;
+  }
+
+  /* third page */
+
+  .who-img{
+    height: 470px;
+  }
+  .best-tmt{
+    font-size: 37px !important;
+  }
+  .years-font{
+    font-size: 23px;
+  }
+  .people-font{
+    font-size: 12px;
+  }
+
+  .select-number{
+    background-size: 0 !important;
+  }
+
+  .address-column h6{
+    font-size: 15px;
+  }
+  .address-column p{
+    font-size:10px ;
+  }
+
+  .get-touch{
+    font-size: 13px;
+    height: 40px;
+  }
+
+
+  .brand-logo{
+    width: 170px;
+  }
+
+  .sub-logo{
+    font-size: 7px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}  
+
+.quick-manufacture{
+  font-size: 16px;
+}
+
+}
+
+
+
+
+
+@media (max-width:768px) {
+
+  .first-page{
+    height: 500px;
+  }
+
+  .menu {
+    font-size: 6px !important;
+  }
+  .square {
+    display: none;
+}
+
+.nav-item:hover{
+  background-color: #30363c;
+  border-radius: 0;
+}
+
+.offcanvas-body{
+  width: 100%;
+}
+.nav-item{
+  display: flex;
+  justify-content: center;
+}
+
+.drop-menu{
+  font-size: 6px;
+  --bs-dropdown-min-width: 6rem !important;
+}
+
+  .the-future{
+    font-size: 35px ;
+  }
+  .quality{
+    font-size: 20px;
+  }
+  .production{
+    font-size: small !important;
+  }
+
+  .p-head{
+    padding: 50px 0px 0px 50px !important;
+  }
+  .aliquam{
+    font-size: 22px !important;
+ }
+ .all-product{
+    font-size: 9px !important;
+  }
+
+  /* third page */
+
+  .who-img{
+    height: 310px;
+  }
+  .best-tmt{
+    font-size: 28px !important;
+  }
+  .years-font{
+    font-size: 17px;
+  }
+  .people-font{
+    font-size: 10px;
+  }
+
+  /* fifth page */
+
+  .who-size{
+    font-size:15px ;
+  }
+
+  .about-btn{
+    width: 120px;
+    height: 40px;
+    font-size: 12px !important;
+  }
+
+  /* eighth-page */
+
+  .eighth-page{
+    height: 480px !important;
+  }
+  .transform-slider{
+    display: none !important;
+  }
+
+  .address-column h6{
+    font-size: 12px;
+  }
+  .address-column p{
+    font-size:8px ;
+  }
+
+  .get-touch{
+    font-size: 12px;
+    height: 35px;
+  }
+
+  .brand-logo{
+    width: 120px;
+    height: 30px;
+  }
+
+  .sub-logo{
+    font-size: 5px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+} 
+
+.quick-manufacture{
+  font-size: 13px;
+}
+}
+
+
+
+@media (max-width:576px) {
+  .first-page{
+    height: 400px;
+  }
+
+  .the-future{
+    font-size: 20px ;
+  }
+  .quality{
+    font-size: 15px;
+  }
+
+  .p-head{
+    padding: 10px 0px 0px 10px !important;
+  }
+
+  .production{
+    font-size: 8px !important;
+  }
+  
+  .aliquam{
+    font-size: 12px !important;
+ }
+ .all-product{
+  font-size: 5px !important;
+}
+
+.card-photo {
+  width: 80px;
+    height: 120px;
+}
+
+/* sticky purchase */
+
+.purchase{
+  top: 150px;
+}
+.purchase p{
+  font-size: 8px;
+  
+}
+
+/* sticky contact */
+
+.contact-icon{
+  width: 35px;
+  height: 35px;
+}
+
+
+
+
+/* third page */
+
+.quality-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.who-img{
+  height: 200px;
+}
+
+.best-tmt{
+  font-size: 13px !important;
+}
+
+.years-font{
+  font-size: 7px;
+}
+.people-font{
+  font-size: 6px;
+}
+
+/* fourth page */
+.fourth-page{
+  height: 330px;;
+}
+
+/* fifth page */
+
+.who-size{
+  font-size:10px ;
+}
+.about-btn{
+  width: 60px;
+  height: 22px;
+  padding: 5px 8px !important;
+  font-size: 8px !important;
+}
+
+
+/* seventh page */
+
+
+.card-bgimage{
+  width: 200px;
+  height: 220px !important;
+}
+
+.forward-arrow{
+  width: 10px !important;
+  height: 10px !important;
+}
+
+
+.eighth-page{
+  height: 210px !important;
+}
+
+.bottom-slider{
+  height: 110px !important;
+}
+
+.input-height{
+  height: 40px;
+  font-size: 12px !important;
+}
+.address-column{
+  visibility: hidden;
+}
+
+.brand-logo{
+  width: 60px;
+  height: 15px;
+}
+
+.sub-logo{
+  font-size: 3px;
+  word-spacing: 1px;
+  letter-spacing: 0px;
+} 
+
+.quick-link{
+  height: 200px;
+}
+.quick-manufacture{
+  font-size: 8px;
+}
+.q-logo{
+  width: 10px;
+  height: 10px;
+}
+
+.media-logo{
+  width: 10px;
+  height: 10px;
+}
+
+.round-div{
+  width: 15px;
+  height: 15px;
+}
+
+}
+
+
